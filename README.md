@@ -112,7 +112,7 @@ pip install requests pip install beautifulsoup4 pip install nltk
 1.	Copy the provided Python script into a file, for example, seo_tool.py.
 2.	Remember to put here your GOOGLE API KEY
 
-def analyze_pagespeed():
+def analyze_pagespeed():# this doesnt give results as of now
     url = url_entry_pagespeed.get()
     api_key = "PUT HERE YOUR GOOLE API"  # Replace with your actual Google API key
 
@@ -120,7 +120,7 @@ def analyze_pagespeed():
 4.	Navigate to the directory containing the script using the cd command:
 cd path/to/directory 
 5.	Run the script by entering:
-python seo_tool.py 
+python seo_toolp.py 
 6.	The GUI window for the SEO tools should appear.
 7.	Interact with the tabs and tools as needed:
 •	Enter a URL for the Keyword Research, PageSpeed, and Website Info tools.
